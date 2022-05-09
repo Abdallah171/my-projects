@@ -1,0 +1,44 @@
+	body {
+	    background-image: url(istockphoto-1297349747-170667a.jpg);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	
+	form {
+	    border: 3px solid black;
+	    background-image: url(istockphoto-955952680-170667a.jpg );
+	    left: 480px;
+	    top: 180px;
+	    position: absolute;
+	    margin: 20px;
+	    padding: 16px;
+	}
+	
+	input[type=text],
+	input[type=password] {
+	    width: 80%;
+	    padding: 15px;
+	    margin: 5px 0 22px 0;
+	    border: none;
+	    background: #f1f1f1;
+	}
+	
+	label {
+	    color: white;
+	    background-color: red;
+	}
+	
+	.label {
+	    color: darkorange;
+	    background-color: black;
+	}
+	
+	#button {
+	    background-color: #04AA6D;
+	    color: #e6e0e0;
+	    padding: 7px 20px;
+	    border: 5px solid black;
+	    cursor: pointer;
+	    width: 40%;
+	    opacity: 1;
+	}

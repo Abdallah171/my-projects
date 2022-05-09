@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        .container {
+            border: 3px solid black;
+            margin: 40px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container .sale {
+            background-color: #2196F3;
+            align-self: flex-end;
+            padding: 10px;
+            color: white;
+            width: 125px;
+            position: relative;
+            right: 7px;
+        }
+        
+        .sale::after {
+            content: '';
+            position: absolute;
+            height: 88%;
+            width: 35px;
+            background-color: rgb(255, 255, 255);
+            right: -16px;
+            top: 3px;
+            transform: rotate( 44deg);
+        }
+        
+        .content {
+            border: 3px solid red;
+            margin: 20px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .basic,
+        .pro {
+            width: calc(48%);
+        }
+        
+        .bp {
+            margin: 20px;
+            padding: 10px;
+            background-color: orange;
+        }
+        
+        .pp {
+            margin: 20px;
+            padding: 10px;
+            background-color: lightblue;
+        }
+        
+        .pro p:nth-of-type(12)::after {
+            content: '?';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            right: 10px;
+            text-align: center;
+            color: white;
+            line-height: 2;
+            border-radius: 50%;
+            background-color: red;
+        }
+        
+        p {
+            padding: 10px 0;
+            position: relative;
+            border-bottom: 2px solid #eee;
+            background-color: white;
+        }
+        
+        p:last-of-type {
+            border-bottom: none;
+        }
+        
+        .basic .no::before {
+            content: '✖';
+            color: white;
+            padding: 4px;
+            line-height: 2;
+            margin: 0 10px;
+            border-radius: 50%;
+            background-color: #E91E63;
+        }
+        
+        p:not(.no):before {
+            content: '✔';
+            color: white;
+            padding: 4px;
+            line-height: 2;
+            margin: 0 10px;
+            border-radius: 50%;
+            background-color: #4BB5AB;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sale"> Save 50% </div>
+
+        <div class="content">
+            <div class="basic">
+                <div class="bp"> Basic </div>
+                <p>Watch All Movies</p>
+                <span></span>
+                <p>Movie Length [only 10 Minutes] </p>
+                <span></span>
+                <p>Receive Mailing Lists </p>
+                <span></span>
+                <p class="no">Track Your Progress </p>
+                <span></span>
+                <p class="no">1GB Hosting Space To Upload Your Work </p>
+                <span></span>
+                <p class="no">New Movies Every Month </p>
+                <span></span>
+                <p class="no">Private Movies [Need To Buy] </p>
+                <span></span>
+                <p class="no">Profile Appear in The Top Member Page </p>
+                <span></span>
+                <p class="no">Movie Premiere </p>
+                <span></span>
+                <p class="no">Compete width Other Members </p>
+                <span></span>
+                <p>Play Games </p>
+                <span></span>
+                <p class="no">Ranking System and Achievements </p>
+                <span></span>
+                <p>Watch Movies On Your Cell Phone </p>
+                <span></span>
+            </div>
+            <div class="pro">
+                <div class="pp">Profissional</div>
+                <span></span>
+                <p>Watch All Movies</p>
+                <span></span>
+                <p>Movie Length [only 10 Minutes] </p>
+                <span></span>
+                <p>Receive Mailing Lists </p>
+                <span></span>
+                <p>Track Your Progress </p>
+                <span></span>
+                <p>1GB Hosting Space To Upload Your Work </p>
+                <span></span>
+                <p>New Movies Every Month </p>
+                <span></span>
+                <p>Private Movies [Need To Buy] </p>
+                <span></span>
+                <p>Profile Appear in The Top Member Page </p>
+                <span></span>
+                <p>Movie Premiere </p>
+                <span></span>
+                <p>Compete width Other Members </p>
+                <span></span>
+                <p>play Games </p>
+                <span></span>
+                <p>Ranking System and Achievements </p>
+                <span></span>
+                <p>Watch Movies On Your Cell Phone </p>
+                <span></span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>

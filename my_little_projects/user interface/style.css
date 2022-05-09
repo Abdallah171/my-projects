@@ -1,0 +1,114 @@
+body {
+    text-align: right;
+    background-color: #efefef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.textdiv,
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.formdiv {
+    position: relative;
+    bottom: 510px;
+    left: 50px;
+}
+
+.pdiv {
+    position: relative;
+    right: 90px;
+}
+
+.headlogin {
+    background-color: #3DB4B7;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form {
+    background-color: #ffffff;
+    width: 430px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form p {
+    text-align: right;
+}
+
+form .fologin {
+    width: 90%;
+    height: 50px;
+    background-color: #3DB4B7;
+    color: white;
+    border-radius: 4px;
+}
+
+.formdiv h2 {
+    text-align: right;
+}
+
+.formdiv img {
+    width: 25px;
+    display: flex;
+    padding: 12px 10px;
+    border: 1px solid #e0dfdff8;
+}
+
+.mailinput {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.passinput {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.checkmark {
+    height: 20px;
+    width: 15px;
+    background-color: #eee;
+    align-items: center;
+}
+
+.input {
+    width: 80%;
+    padding: 12px 10px;
+    border: 1px solid #e0dfdff8;
+    line-height: 25px;
+    text-align: right;
+}
+
+.reviewdiv {
+    position: relative;
+    right: 90px;
+}
+
+.pimg {
+    float: right;
+    position: relative;
+    bottom: 25px;
+    left: 10px
+}
+
+.h2 {
+    position: relative;
+    right: 50px;
+}
